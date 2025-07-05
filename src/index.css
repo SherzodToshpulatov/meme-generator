@@ -47,16 +47,17 @@ main {
     text-indent: 5px;
 }
 
-.form button {
+ button {
     grid-column: 1 / -1;
     border-radius: 5px;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     color: white;
     border: none;
     cursor: pointer;
+    width: 100%;
 }
 
-.form input, .form button {
+.form input, button {
     min-height: 40px;
     font-family: "Karla", sans-serif;
 }
@@ -67,6 +68,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-block-end: 1rem;
 }
 
 .meme > img {
